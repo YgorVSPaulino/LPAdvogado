@@ -1,8 +1,8 @@
 @import './fonts.css';
 @import './normalize.css';
 @import './variables.css';
-@import '';
-@import '';
+@import '../pages/partials/nav.css';
+@import '../pages/partials/section.css';
 @import '';
 @import '';
 @import '';
