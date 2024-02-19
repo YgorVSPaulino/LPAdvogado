@@ -1,0 +1,23 @@
+section.dois {
+    background: var(--vinho);
+    display: flex;
+    justify-content: center;
+}
+
+section.dois .caixas {
+    width: 250px;
+    height: 180px;
+    background-color: var(--bege);
+    margin: 30px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+section.dois .caixas img {
+    width: 50px;
+}
+
+section.dois .caixas p {
+  font-family: 'Poppins';
+  width: 200px;
+}

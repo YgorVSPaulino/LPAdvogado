@@ -3,6 +3,6 @@
 @import './variables.css';
 @import '../pages/partials/nav.css';
 @import '../pages/partials/section.css';
-@import '';
-@import '';
-@import '';
+@import '../pages/partials/section-dois.css';
+@import '../pages/partials/section-tres.css';
+@import '../pages/partials/section-quatro.css';

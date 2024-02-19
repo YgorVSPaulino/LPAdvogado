@@ -1,0 +1,66 @@
+section.quatro {
+  
+}
+
+section.quatro .head {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+section.quatro .card {
+    width: 470px;
+    height: 250px;
+    background-color: var(--bege);
+    margin: 30px;
+    border-radius: 20px;
+    padding: 20px;
+}
+section.quatro .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    grid-template-rows: 300px 300px;
+    margin: 30px 0 0 180px;
+}
+
+section.quatro .card h3 {
+    font-family: 'Poppins';
+}
+
+section.quatro .card p {
+    font-family: 'Poppins';
+}
+section.quatro p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+section.quatro .destaque {
+    background-color: rgba(255, 0, 0, 0.57);
+    padding: 10px;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    width: 70%;
+    margin: 10px 0 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.quatro a {
+    font-family: 'Poppins';
+    color: var(--black);
+    padding: 5px;
+    margin: 15px 0 10px 520px;
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    background: var(--verdewpp);
+}
