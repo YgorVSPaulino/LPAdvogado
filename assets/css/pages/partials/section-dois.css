@@ -5,11 +5,11 @@ section.dois {
 }
 
 section.dois .caixas {
-    width: 250px;
-    height: 180px;
+    width: 230px;
+    height: 160px;
     background-color: var(--bege);
     margin: 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 20px;
 }
 
@@ -19,5 +19,8 @@ section.dois .caixas img {
 
 section.dois .caixas p {
   font-family: 'Poppins';
+  font-weight: 700;
   width: 200px;
+  margin: 10px 0 0 0px;
+  color: var(--vinho);
 }

@@ -1,21 +1,37 @@
-.texto {
+section.um {
+    background-image: url(../../../images/files/1\ 1.png);
+
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    color: white;
+}
+section.um .texto {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin: 0px 0 0 600px;
+    margin: 0 0 0 800px;
     top: 200px;
     padding: 30px;
-    width: 800px;
-    background-color: rgba(0, 0, 0, 0.397);
+    width: 500px;
+    height: 600px;
     position: absolute;
+    top: 120px;
 }
-.texto h1 {
+section.um .texto p {
+    color: var(--bege);
+    font-family: 'Poppins';
+    font-size: 28px;
+    margin: 30px 0 0 20px;
+    line-height: 1.1;
+}
+section.um .texto h1 {
     max-width: 600px;
-}
-
-.image {
- position: relative;
- margin: 100px;
+    color: var(--vinho);
+    font-family: 'Poppins';
+    font-size: 39px;
 }

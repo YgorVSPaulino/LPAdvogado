@@ -1,0 +1,27 @@
+nav {
+    background: var(--vinho);
+    color: var(--bege);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 0 30px;
+}
+nav div.logo p {
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 700;
+}
+
+nav .opcoes a {
+    text-decoration: none;
+    color: var(--bege);
+    font-family: 'Poppins';
+    margin: 0 30px;
+}

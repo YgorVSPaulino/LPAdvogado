@@ -1,5 +1,5 @@
 section.quatro {
-  
+    background-color: #0C0C0C;
 }
 
 section.quatro .head {
@@ -7,7 +7,8 @@ section.quatro .head {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0 0 0;
+    padding: 20px 0;
+    color: #fff;
 }
 
 section.quatro .card {
@@ -15,14 +16,17 @@ section.quatro .card {
     height: 250px;
     background-color: var(--bege);
     margin: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px;
+    color: #fff;
+    background-color: #0C0C0C;
+    border: 1px solid #fff;
 }
 section.quatro .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, 500px);
-    grid-template-rows: 300px 300px;
-    margin: 30px 0 0 180px;
+    grid-template-rows: 270px 270px;
+    margin: 0px 0 0 240px;
 }
 
 section.quatro .card h3 {
@@ -37,24 +41,26 @@ section.quatro p {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins';
+    color: #FFF;
 }
 section.quatro .destaque {
     background-color: rgba(255, 0, 0, 0.57);
     padding: 10px;
     font-family: 'Poppins';
     border-radius: 10px;
-    width: 70%;
-    margin: 10px 0 0 200px;
+    width: 66%;
+    margin: 50px 0 0 270px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--bege);
 }
 
 section.quatro a {
     font-family: 'Poppins';
     color: var(--black);
     padding: 5px;
-    margin: 15px 0 10px 520px;
+    margin: 25px 0 10px 520px;
     width: 30%;
     border-radius: 20px;
     display: flex;
@@ -63,4 +69,5 @@ section.quatro a {
     gap: 5px;
     text-decoration: none;
     background: var(--verdewpp);
+    font-weight: 700;
 }
