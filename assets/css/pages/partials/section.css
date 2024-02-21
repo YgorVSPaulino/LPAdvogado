@@ -38,7 +38,7 @@ section.um .texto h1 {
 
 @media screen and (max-width: 1000px) {
     section.um .texto {
-        width: 600px;
+        width: 450px;
         margin: 0 0 0 80px;
         padding: 30px;
         position: absolute;
@@ -52,5 +52,8 @@ section.um .texto h1 {
         margin: 30px 0 0 20px;
         line-height: 1.1;
         max-width: 400px;
+    }
+    section.um .texto h1 {
+        font-size: 35px;
     }
 }

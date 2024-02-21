@@ -84,7 +84,7 @@ section.quatro a {
     }
     
     section.quatro .card {
-        width: 380px;
+        width: 340px;
         height: 280px;
         background-color: var(--bege);
         margin: 30px;
@@ -96,7 +96,7 @@ section.quatro a {
     }
     section.quatro .cards {
         display: flex;
-        margin: 0px 0 0 70px;
+        margin: 0px 0 0 30px;
         flex-direction: column;
     }
     
@@ -121,7 +121,7 @@ section.quatro a {
         padding: 10px;
         font-family: 'Poppins';
         border-radius: 10px;
-        width: 400px;
+        width: 300px;
         margin: 20px 0 0 90px;
         display: flex;
         justify-content: center;
@@ -133,8 +133,8 @@ section.quatro a {
         font-family: 'Poppins';
         color: var(--black);
         padding: 5px;
-        margin: 25px 0 10px 90px;
-        min-width: 400px;
+        margin: 25px 0 10px 70px;
+        min-width: 300px;
         border-radius: 20px;
         display: flex;
         justify-content: center;
