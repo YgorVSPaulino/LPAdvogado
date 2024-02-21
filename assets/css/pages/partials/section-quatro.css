@@ -96,7 +96,7 @@ section.quatro a {
     }
     section.quatro .cards {
         display: flex;
-        margin: 0px 0 0 30px;
+        margin: 0px 0 0 10px;
         flex-direction: column;
     }
     
@@ -122,7 +122,7 @@ section.quatro a {
         font-family: 'Poppins';
         border-radius: 10px;
         width: 300px;
-        margin: 20px 0 0 90px;
+        margin: 20px 0 0 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -133,7 +133,7 @@ section.quatro a {
         font-family: 'Poppins';
         color: var(--black);
         padding: 5px;
-        margin: 25px 0 10px 70px;
+        margin: 25px 0 10px 40px;
         min-width: 300px;
         border-radius: 20px;
         display: flex;

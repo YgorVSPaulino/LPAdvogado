@@ -49,11 +49,11 @@ section.um .texto h1 {
         color: var(--bege);
         font-family: 'Poppins';
         font-size: 28px;
-        margin: 30px 0 0 20px;
+        margin: 30px 0 0 30px;
         line-height: 1.1;
         max-width: 400px;
     }
     section.um .texto h1 {
-        font-size: 35px;
+        font-size: 33px;
     }
 }
