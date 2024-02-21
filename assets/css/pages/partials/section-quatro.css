@@ -71,3 +71,77 @@ section.quatro a {
     background: var(--verdewpp);
     font-weight: 700;
 }
+
+@media screen and (max-width: 1000px) {
+   
+    section.quatro .head {
+        font-family: 'Poppins';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        color: #fff;
+    }
+    
+    section.quatro .card {
+        width: 380px;
+        height: 280px;
+        background-color: var(--bege);
+        margin: 30px;
+        border-radius: 10px;
+        padding: 20px;
+        color: #fff;
+        background-color: #0C0C0C;
+        border: 1px solid #fff;
+    }
+    section.quatro .cards {
+        display: flex;
+        margin: 0px 0 0 70px;
+        flex-direction: column;
+    }
+    
+    section.quatro .card h3 {
+        font-family: 'Poppins';
+        margin: 20px 0 0 0;
+    }
+    
+    section.quatro .card p {
+        font-family: 'Poppins';
+    }
+    section.quatro p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins';
+        color: #FFF;
+        padding: 0 0 20px 0;
+    }
+    section.quatro .destaque {
+        background-color: rgba(255, 0, 0, 0.57);
+        padding: 10px;
+        font-family: 'Poppins';
+        border-radius: 10px;
+        width: 400px;
+        margin: 20px 0 0 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--bege);
+    }
+    
+    section.quatro a {
+        font-family: 'Poppins';
+        color: var(--black);
+        padding: 5px;
+        margin: 25px 0 10px 90px;
+        min-width: 400px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        background: var(--verdewpp);
+        font-weight: 700;
+    }
+}

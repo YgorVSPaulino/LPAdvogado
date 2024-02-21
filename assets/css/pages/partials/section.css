@@ -1,12 +1,13 @@
 section.um {
-    background-image: url(../../../images/files/1\ 1.png);
-
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    color: white;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    bottom: -4px;
+}
+section.um .imagem img {
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 section.um .texto {
     display: flex;
@@ -20,7 +21,6 @@ section.um .texto {
     width: 500px;
     height: 600px;
     position: absolute;
-    top: 120px;
 }
 section.um .texto p {
     color: var(--bege);
@@ -34,4 +34,23 @@ section.um .texto h1 {
     color: var(--vinho);
     font-family: 'Poppins';
     font-size: 39px;
+}
+
+@media screen and (max-width: 1000px) {
+    section.um .texto {
+        width: 600px;
+        margin: 0 0 0 80px;
+        padding: 30px;
+        position: absolute;
+        top: 120px;
+        right: 0px;
+    }
+    section.um .texto p {
+        color: var(--bege);
+        font-family: 'Poppins';
+        font-size: 28px;
+        margin: 30px 0 0 20px;
+        line-height: 1.1;
+        max-width: 400px;
+    }
 }

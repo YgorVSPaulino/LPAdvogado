@@ -5,6 +5,11 @@ nav {
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 nav div.logo {
@@ -24,4 +29,158 @@ nav .opcoes a {
     color: var(--bege);
     font-family: 'Poppins';
     margin: 0 30px;
+}
+nav button.menu {
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background: transparent;
+}
+
+nav button.menu span {
+    background-color: #FFF;
+    position: absolute;
+    height: 3px;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+nav button.menu span.um {
+    width: 25px;
+    height: 3px;
+    bottom: 4px;
+    right: 0;
+}
+
+nav button.menu span.dois {
+    width: 35px;
+    height: 3px;
+    top: 4px;
+    right: 0;
+    
+}
+nav button.menu.ativo span {
+    background-color: #ff0000;
+}
+
+nav button.menu.ativo span.um {
+    width: 30px;
+    bottom: 8px;
+    right: -5px;
+    transform: rotate(45deg);
+}
+
+nav button.menu.ativo span.dois {
+    width: 30px;
+    top: 8px;
+    right: -5px;
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        background: var(--vinho);
+        color: var(--bege);
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+    }
+    
+    nav div.logo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin: 0 0 0 30px;
+    }
+    nav div.logo p {
+        font-family: 'Poppins';
+        font-size: 22px;
+        font-weight: 700;
+    }
+    nav .opcoes {
+         position: fixed;
+         background-color: #a72c2c6d;
+         width: 100%;
+         top: 60px;
+         right: 20px;
+         flex-direction: column;
+         max-width: 280px;
+         padding: 20px 40px;
+         align-items: flex-start;
+         display: flex;
+         align-items: center;
+         border-radius: 10px;
+         border: 1px solid #fff;
+         margin: 40px 0 0 0;
+         opacity: 0;
+         visibility: hidden;
+         pointer-events: none;
+         transition: all 0.3;
+    }
+
+    nav .opcoes.mostrar {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+    }
+
+    nav .opcoes a {
+        margin: 5px 5px;
+       
+    }
+    nav button.menu {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        background: transparent;
+        margin: 0 20px 0 0;
+    }
+    
+    nav button.menu span {
+        background-color: #FFF;
+        position: absolute;
+        height: 3px;
+        transition: all 0.3s;
+        border-radius: 5px;
+    }
+    
+    nav button.menu span.um {
+        width: 25px;
+        height: 3px;
+        bottom: 4px;
+        right: 0;
+    }
+    
+    nav button.menu span.dois {
+        width: 35px;
+        height: 3px;
+        top: 4px;
+        right: 0;
+        
+    }
+    nav button.menu.ativo span {
+        background-color: #ff0000;
+    }
+    
+    nav button.menu.ativo span.um {
+        width: 30px;
+        bottom: 8px;
+        right: -5px;
+        transform: rotate(45deg);
+    }
+    
+    nav button.menu.ativo span.dois {
+        width: 30px;
+        top: 8px;
+        right: -5px;
+        transform: rotate(-45deg);
+    }
 }

@@ -42,3 +42,13 @@ section.tres .bloco h3 {
 section.tres .bloco p {
     font-family: 'Poppins';
 }
+
+@media screen and (max-width: 1000px) {
+    section.tres .bloco-principal {
+        display: flex;
+        margin: 0px 0 0 140px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

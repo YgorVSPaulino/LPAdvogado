@@ -1,26 +1,52 @@
-section.dois {
-    background: var(--vinho);
+section.dois { 
     display: flex;
-    justify-content: center;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    position: relative; 
+    background-color: var(--vinho); 
+    overflow-x: scroll;
 }
 
-section.dois .caixas {
+section.dois .caixas{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 120px; 
+    gap: 50px;
+} 
+
+section.dois .caixa {
     width: 230px;
     height: 160px;
     background-color: var(--bege);
     margin: 30px;
     border-radius: 15px;
     padding: 20px;
+
 }
 
-section.dois .caixas img {
+section.dois .caixa img {
     width: 50px;
 }
 
-section.dois .caixas p {
+section.dois .caixa p {
   font-family: 'Poppins';
   font-weight: 700;
   width: 200px;
   margin: 10px 0 0 0px;
   color: var(--vinho);
+}
+
+section.dois::-webkit-scrollbar {
+        display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  
+    section.dois .caixas{ 
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 0 10px; 
+    } 
+  
 }
